@@ -33,3 +33,9 @@
 *.xml
 
 *.xml
+
+.idea/workspace.xml
+
+.idea/hangman.iml
+
+.idea/vcs.xml
