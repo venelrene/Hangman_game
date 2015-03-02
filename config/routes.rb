@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'games/new'
+
+  get 'games/show'
+
+  get 'games/update'
+
+  get 'games/destroy'
+
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
