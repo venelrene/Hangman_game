@@ -18,26 +18,12 @@
 
 *.xml
 
-*.iml
-
-*.iml
-
-*.xml
-
-*.xml
-
 .idea/hangman.iml
 
 *.iml
-
-*.xml
-
-*.xml
 
 .idea/workspace.xml
 
 .idea/hangman.iml
 
 .idea/vcs.xml
-
-*.xml

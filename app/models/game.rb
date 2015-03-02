@@ -21,3 +21,8 @@ end
 def guessed?
   (word.split('') - selected_letters).empty?
 end
+
+#answer if the game is over
+def finished?
+  failed_guess >= MAX_FAILED_ATTEMPTS || !guessed?
+end
