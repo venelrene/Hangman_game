@@ -9,3 +9,15 @@ def initialize
   @word = 'Hangman'.upcase
   @selected_letters = []
 end
+
+# method which accepts a letter and returns true or false
+def failed_guess
+  selected_letters.select { |letter|
+  !word.include?)(letter)
+  }.size
+end
+
+# guessed method if user guessed the word
+def guessed?
+  (word.split('') - selected_letters).empty?
+end

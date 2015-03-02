@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2993c8bd-04c7-4e95-aad7-c32233edcf15" name="Default" comment="" />
+    <list default="true" id="2993c8bd-04c7-4e95-aad7-c32233edcf15" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
+    </list>
     <ignored path="hangman.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="game.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19430052" vertical-offset="0" max-vertical-offset="386">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.7668394" vertical-offset="34" max-vertical-offset="420">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -481,7 +483,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -515,7 +517,7 @@
         <state vertical-scroll-proportion="0.6217617" vertical-offset="0" max-vertical-offset="386">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -538,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19430052" vertical-offset="0" max-vertical-offset="386">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.7668394" vertical-offset="34" max-vertical-offset="420">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>
