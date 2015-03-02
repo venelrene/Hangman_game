@@ -39,3 +39,5 @@
 .idea/hangman.iml
 
 .idea/vcs.xml
+
+*.xml
