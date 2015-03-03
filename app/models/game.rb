@@ -26,3 +26,11 @@ end
 def finished?
   failed_guess >= MAX_FAILED_ATTEMPTS || !guessed?
 end
+
+def select!(letter)
+  raise GameOverError if finished?
+  selected_letters << letter unless selected_letters.must_include? letter
+  word.must_include? letter
+end
+
+class GameOverError < StandardError; end
