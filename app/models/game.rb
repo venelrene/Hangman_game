@@ -1,6 +1,5 @@
 class Game
-  include ActiveModel::AttributeMethods, ActiveModel::Serializers::JSON
-  
+
   class GameOverError < StandardError; end
 
   # Defining the user's max failed attempts
