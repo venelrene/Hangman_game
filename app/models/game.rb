@@ -1,4 +1,5 @@
 class Game
+  # include ActiveModel::AttributeMethods, ActiveModel::Serializers::JSON
 
   class GameOverError < StandardError; end
 
@@ -17,7 +18,7 @@ class Game
   # method which accepts a letter and returns true or false
   def failed_guess
     selected_letters.select { |letter|
-      !word.include?)(letter)
+      !word.include? (letter)
     }.size
   end
 
