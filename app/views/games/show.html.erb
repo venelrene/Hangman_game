@@ -61,7 +61,7 @@
 
         <% unless current_game.finished? %>
             <div class="small-12 medium-6 columns">
-              <%= link_to game_path, :class => 'button expand alert', :method => :delete do %>
+              <%= link_to games_path, :class => 'button expand alert', :method => :delete do %>
                   <i class="fa fa-fire"></i> Cancel game
               <% end %>
             </div>
