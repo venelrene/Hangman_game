@@ -1,6 +1,6 @@
 class GamesController < ApplicationController
   def new
-    session[:current_game] = Game.new
+    set_current_game Game.new
     redirect_to games_path
   end
 

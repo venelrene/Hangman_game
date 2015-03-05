@@ -1,5 +1,5 @@
 class Game
-  # include ActiveModel::AttributeMethods, ActiveModel::Serializers::JSON
+  include ActiveModel::AttributeMethods, ActiveModel::Serializers::JSON
 
   class GameOverError < StandardError; end
 
@@ -13,6 +13,17 @@ class Game
   def initialize
     @word = 'Hangman'.upcase
     @selected_letters = []
+  end
+
+  def attributes
+    {'word' => nil,
+     'selected_letters' => nil}
+  end
+
+  def attributes=(hash)
+    hash.each do |key, value|
+      send("#{key}=", value)
+    end
   end
 
   # method which accepts a letter and returns true or false
