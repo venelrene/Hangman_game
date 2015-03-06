@@ -1,12 +1,12 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
+
   helper_method :current_game
 
-  # current_game: loads and keeps the current game to the @current_game variable
   def current_game
     @current_game ||= load_current_game
   end
-  
+
   def set_current_game(game)
     @current_game = game
     session[:serialized_current_game] = game.present? ? game.to_json : nil

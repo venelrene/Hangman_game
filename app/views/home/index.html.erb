@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="small-12 colums text-center">
+  <div class="small-12 columns text-center">
     <h1>Welcome to Hangman!</h1>
   </div>
 </div>
@@ -7,14 +7,14 @@
 <div class="row">
   <div class="small-12 <%= current_game.present? && !current_game.finished? ? 'medium-6' : '' %> columns">
     <%= link_to new_games_path, :class => 'button expand' do %>
-        <i class="fa fa-gamepad fa-lg"> New Game</i>
+        <i class="fa fa-gamepad fa-lg"> New game</i>
     <% end %>
   </div>
 
   <% if current_game.present? && !current_game.finished? %>
       <div class="small-12 medium-6 columns">
-        <%= link_to games_path :class => 'button expand' do %>
-            <i class="fa fa-refresh fa-spin fa-lg"> Continue Game </i>
+        <%= link_to games_path, :class => 'button expand' do %>
+            <i class="fa fa-refresh fa-lg"> Continue Game </i>
         <% end %>
       </div>
   <% end %>

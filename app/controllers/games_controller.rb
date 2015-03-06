@@ -11,7 +11,7 @@ class GamesController < ApplicationController
     current_game.select! params[:letter]
     update_current_game
   rescue Game::GameOverError
-    flash[:alert] = 'This game is finished'
+    flash[:alert] = 'This game is finished...'
   ensure
     redirect_to games_path
   end
